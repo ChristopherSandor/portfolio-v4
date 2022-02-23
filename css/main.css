@@ -1,0 +1,17 @@
+.height{
+  height: 16.5vh;
+  width: 1920px;
+}
+.height2{
+  height: 324px;
+  width: 480px;
+}
+.row * {
+  background-color: lightblue;
+  border: 1px solid darkblue;
+}
+.special{
+    position: absolute;
+    height: 8.25vh;
+    
+}
