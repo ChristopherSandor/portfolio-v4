@@ -2,7 +2,9 @@
   height: 16.5vh;
   width: 100vw;
 }
-
+div {
+  padding: 0;
+}
 /* .row * {
   background-color: lightblue;
   border: 1px solid darkblue;
@@ -14,4 +16,21 @@
 }
 .testing{
     font-size: 160%;
+}
+.center{
+ padding: 50px 0;
+}
+.logoFront{
+    padding-top: 100px;
+}
+.middle{
+  text-align: center;
+}
+.logoName{
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 2vw;
+}
+.sideBar{
+  font-family: 'Ewert', cursive;
+  font-size: 2vw;
 }
