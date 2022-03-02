@@ -17,12 +17,6 @@ div {
 .testing{
     font-size: 160%;
 }
-.center{
- padding: 50px 0;
-}
-.logoFront{
-    padding-top: 100px;
-}
 .middle{
   text-align: center;
 }
@@ -32,5 +26,9 @@ div {
 }
 .sideBar{
   font-family: 'Ewert', cursive;
-  font-size: 2vw;
+  font-size: 4vw;
+}
+.boldText{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 9vh;
 }
