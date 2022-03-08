@@ -324,6 +324,7 @@ HOVER ON TEXT/BUTTONS
   width: 100%;
   height: 100%;
   margin: 0 auto;
+  padding: 0;
 }
 
 .btn {
@@ -338,19 +339,51 @@ HOVER ON TEXT/BUTTONS
   text-transform: uppercase;
   width: 100%;
   border-radius: 0;
+  height: 3vw;
 }
 .btn:hover {
   text-decoration: none;
 }
 .effect04 {
   --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
-  display: var(--uismLinkDisplay);
   color: #000;
   outline: solid  2px #000;
   position: relative;
   transition-duration: 0.4s;
   overflow: hidden;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
 }
+#Twitter{
+background-image: url('../img/twitter-logo-b.png');
+  background-size: 7.25vw;
+}
+#Twitter:hover{
+  background-image: url('../img/twitter-logo.png');
+  background-size: 7.25vw;
+}
+#Insta{
+background-image: url('../img/instagram-logo-b.png');
+  background-size: 7.25vw;
+}
+#Insta:hover{
+background-image: url('../img/instagram-logo.png');
+  background-size: 7.25vw;
+}
+#Mail{
+background-image: url('../img/gmail-logo-b.png');
+  background-size: 7.25vw;
+}
+#Mail:hover{
+background-image: url('../img/gmail-logo.png');
+  background-size: 7.25vw;
+}
+
+.colSize{
+  width: 11vw;
+}
+
 .effect04::before,
 .effect04 span{
     margin: 0 auto;
@@ -358,7 +391,6 @@ HOVER ON TEXT/BUTTONS
 	transition-duration: 0.4s;
 }
 .effect04:hover{
-
   background-color: #000;
 }
 .effect04:hover span{
@@ -379,4 +411,9 @@ HOVER ON TEXT/BUTTONS
   letter-spacing: 0.05em;
   -webkit-transform: translateY(0) scale(1,1);
           transform: translateY(0) scale(1,1);
+}
+
+
+.socialClass{
+  width: 3vw;
 }
