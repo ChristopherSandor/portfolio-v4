@@ -1,8 +1,11 @@
 .specialCol{
-width: 1.5vw;
+width: 0.5vw;
+padding-right: none;
+padding-right: 0;
 }
 .specialColTwo{
     width: 7vw;
+    padding-right: none;
 }
 .specialRowOne{
   height: 1vh;
@@ -53,6 +56,14 @@ svg{
 .sideBar{
 font-family: 'Megrim', cursive;
   font-size: 4vw;
+}
+
+.sideBar:hover{
+  animation: shake 0.5s;
+    transition-duration: 0.25s;
+  animation-iteration-count: infinite;
+}
+.leftColNav{
   animation: slideToTheRight 2.5s ease;
 }
 
@@ -79,7 +90,7 @@ font-family: 'Megrim', cursive;
 
 .boldText{
   font-family: 'Abril Fatface', cursive;
-  font-size: 9vh;
+  font-size: 5vw;
 }
 
 @keyframes caret {
@@ -302,4 +313,70 @@ HOVER ON TEXT/BUTTONS
   transition-duration: 0.25s;
   transform: translateX(2vw);
 
+}
+
+/* COOL BUTTON!!! */
+.buttons {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 45px;
+  max-width: 3vw;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  border-radius: 0;
+}
+.btn:hover {
+  text-decoration: none;
+}
+.effect04 {
+  --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
+  display: var(--uismLinkDisplay);
+  color: #000;
+  outline: solid  2px #000;
+  position: relative;
+  transition-duration: 0.4s;
+  overflow: hidden;
+}
+.effect04::before,
+.effect04 span{
+    margin: 0 auto;
+	transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+	transition-duration: 0.4s;
+}
+.effect04:hover{
+
+  background-color: #000;
+}
+.effect04:hover span{
+  -webkit-transform: translateY(-400%) scale(-0.1,20);
+          transform: translateY(-400%) scale(-0.1,20);
+}
+.effect04::before{
+  content: attr(data-sm-link-text);
+	color: #FFF;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transform: translateY(500%) scale(-0.1,20);
+          transform: translateY(500%) scale(-0.1,20);
+}
+.effect04:hover::before{
+  letter-spacing: 0.05em;
+  -webkit-transform: translateY(0) scale(1,1);
+          transform: translateY(0) scale(1,1);
 }

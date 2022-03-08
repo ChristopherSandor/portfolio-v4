@@ -1,13 +1,13 @@
 //num 1
 
 document.addEventListener('DOMContentLoaded',function(event){
-  var dataText = [ "About Christopher Sandor"];
+  var dataText = [ "About Christopher"];
   function typeWriter(text, i, fnCallback) {
     if (i < (text.length)) {
      document.querySelector("#num1").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
       setTimeout(function() {
         typeWriter(text, i + 1, fnCallback)
-      }, 100);
+      }, 200);
     }
 
   }
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded',function(event){
      document.querySelector("#num2").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
       setTimeout(function() {
         typeWriter(text, i + 1, fnCallback)
-      }, 150);
+      }, 200);
     }
 
   }
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded',function(event){
      document.querySelector("#num3").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
       setTimeout(function() {
         typeWriter(text, i + 1, fnCallback)
-      }, 150);
+      }, 200);
     }
 
   }
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded',function(event){
      document.querySelector("#num4").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
       setTimeout(function() {
         typeWriter(text, i + 1, fnCallback)
-      }, 150);
+      }, 200);
     }
 
   }
@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded',function(event){
      document.querySelector("#num5").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
       setTimeout(function() {
         typeWriter(text, i + 1, fnCallback)
-      }, 150);
+      }, 200);
     }
 
   }
