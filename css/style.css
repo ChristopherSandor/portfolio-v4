@@ -33,7 +33,7 @@ body{
 .logoName{
   font-family: 'Libre Barcode 39 Text', cursive;
   font-size: 2.5vw;
-  transition-duration: 0.25s;
+  float: right;
 }
 div {
   background-color: none;

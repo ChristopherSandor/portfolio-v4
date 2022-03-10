@@ -62,11 +62,17 @@ padding-right: 0;
   width: 55px;
 }
 .customRow{
-  width: 415px;
-  min-width: 300px;
+padding: 0.5vw;
+padding-right: 1vw;
 }
 .bitchCols{
   min-width: 10px;
+}
+.smallerCol{
+  width: 2vw;
+}
+.largerCol{
+  width: 25vw;
 }
 .btn {
   letter-spacing: 0.1em;
@@ -100,33 +106,39 @@ background-repeat: no-repeat;
 }
 #Twitter{
 background-image: url('../img/twitter-logo-b.png');
-height: 62px;
-width: 62px;
+height: 3.25vw;
+width: 3.25vw;
+background-size: 8vw 8vw;
 }
 #Twitter:hover{
   background-image: url('../img/twitter-logo.png');
-height: 62px;
-width: 62px;
+  height: 3.25vw;
+  width: 3.25vw;
+  background-size: 8vw 8vw;
 }
 #Insta{
 background-image: url('../img/instagram-logo-b.png');
-height: 62px;
-width: 62px;
+height: 3.25vw;
+width: 3.25vw;
+background-size: 8vw 8vw;
 }
 #Insta:hover{
 background-image: url('../img/instagram-logo.png');
-height: 62px;
-width: 62px;
+height: 3.25vw;
+width: 3.25vw;
+background-size: 8vw 8vw;
 }
 #Mail{
 background-image: url('../img/gmail-logo-b.png');
-height: 62px;
-width: 62px;
+height: 3.25vw;
+width: 3.25vw;
+background-size: 8vw 8vw;
 }
 #Mail:hover{
 background-image: url('../img/gmail-logo.png');
-height: 62px;
-width: 62px;
+height: 3.25vw;
+width: 3.25vw;
+background-size: 8vw 8vw;
 }
 .colSize{
   width: 11vw;
