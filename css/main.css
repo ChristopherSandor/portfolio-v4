@@ -1,3 +1,5 @@
+/* Design of Website and basic css */
+
 .specialCol{
 width: 0.5vw;
 padding-right: none;
@@ -17,26 +19,10 @@ padding-right: 0;
   height: 16.5vh;
   width: 100vw;
 }
-body{
-   overflow-x: hidden;
-   background-image: url('../img/doodles.png');
-}
 .navFloat{
   float:left;
   padding:none
 }
-div {
-  background-color: none;
-  background-image: none;
-  padding: 0;
-}
-svg{
-  padding: none;
-}
-/* .row * {
-  background-color: lightblue;
-  border: 1px solid darkblue;
-} */
 .special{
     position: absolute;
     height: 49.5%;
@@ -48,273 +34,20 @@ svg{
 .middle{
   text-align: center;
 }
-.logoName{
-  font-family: 'Libre Barcode 39 Text', cursive;
-  font-size: 2.5vw;
-    transition-duration: 0.25s;
-}
-.sideBar{
-font-family: 'Megrim', cursive;
-  font-size: 4vw;
-}
-
-.sideBar:hover{
-  animation: shake 0.5s;
-    transition-duration: 0.25s;
-  animation-iteration-count: infinite;
-}
-.leftColNav{
-  animation: slideToTheRight 2.5s ease;
-}
-
-.logoName:hover {
-  animation: shake 0.5s;
-    transition-duration: 0.25s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-
-
-.boldText{
-  font-family: 'Abril Fatface', cursive;
-  font-size: 5vw;
-}
 
 @keyframes caret {
   50% {
     border-color: transparent;
   }
 }
-
-
 .leftNav{
 }
-
 .threeFourthColumn{
   height: 12.375vh;
 }
 .oneFourthColumn{
   height: 4.125vh;
 }
-
-.background {
-  background-color: #ffffff;
-  animation-name: color;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  width: 7vw;
-  align-items: center;
-}
-
-@keyframes color {
-  0% {
-    background-color: #ffffff;
-  }
-  50% {
-    background-color: #dbdbdb;
-
-  }
-  100% {
-    background-color: #ffffff;
-  }
-
-}
-
-.topHeight{
-  height:4vh;
-    width: 100vw;
-}
-#sixRow{
-  height: 12.25vh;
-}
-
-/*
-
-SIDE BAR SLIDE IN
-
- */
-
-
-/* Row 1 */
-@keyframes slidedown1 {
-  0% {
-    transform: translateY(-1100px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-#slidedown1 {
-  animation: slidedown1 1s ease;
-}
-
-/* Row 2 */
-@keyframes slidedown2 {
-  0% {
-    transform: translateY(-1100px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-#slidedown2 {
-  animation: slidedown2 1s ease;
-}
-
-/* Row 3 */
-@keyframes slidedown3 {
-  0% {
-    transform: translateY(-1100px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-#slidedown3 {
-  animation: slidedown3 1s ease;
-}
-
-/* Row 4 */
-@keyframes slidedown4 {
-  0% {
-    transform: translateY(-1100px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-#slidedown4 {
-  animation: slidedown4 1s ease;
-}
-
-/* Row 5 */
-@keyframes slidedown5 {
-  0% {
-    transform: translateY(-1100px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-#slidedown5 {
-  animation: slidedown5 1s ease;
-}
-
-/* Row 6 */
-@keyframes slidedown6 {
-  0% {
-    transform: translateY(-1100px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-#slidedown6 {
-  animation: slidedown6 1s ease;
-}
-
-@keyframes slidedown7 {
-  0% {
-    transform: translateY(-1100px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-#slidedown7 {
-  animation: slidedown6 1s ease;
-}
-
-
-@keyframes slideToTheRight {
-  0% {
-    transform: translateX(-150vw);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-
-
-
-/*
-
-HOVER ON TEXT/BUTTONS
-
- */
-#num1{
-  transition-duration: 0.25s;
-}
-#num1:hover{
-  transition-duration: 0.25s;
-  transform: translateX(2vw);
-  color: #f41d0c;
-
-}
-
-#num2{
-  transition-duration: 0.25s;
-}
-#num2:hover{
-  transition-duration: 0.25s;
-  transform: translateX(2vw);
-  color: #ff5e00;
-
-}
-
-#num3{
-  transition-duration: 0.25s;
-}
-#num3:hover{
-  transition-duration: 0.25s;
-  transform: translateX(2vw);
-  color: #ffbb00;
-
-}
-
-#num4{
-  transition-duration: 0.25s;
-}
-#num4:hover{
-  transition-duration: 0.25s;
-  transform: translateX(2vw);
-  color: #52b005;
-
-}
-
-#num5{
-  transition-duration: 0.25s;
-}
-#num5:hover{
-  transition-duration: 0.25s;
-  transform: translateX(2vw);
-  color: #0426d1;
-
-}
-
-#num6{
-  transition-duration: 0.25s;
-}
-#num6:hover{
-  transition-duration: 0.25s;
-  transform: translateX(2vw);
-
-}
-
 /* COOL BUTTON!!! */
 .buttons {
   flex-direction: row;
@@ -325,21 +58,31 @@ HOVER ON TEXT/BUTTONS
   height: 100%;
   margin: 0 auto;
   padding: 0;
+  height: 65px;
+  width: 55px;
 }
-
+.customRow{
+  width: 415px;
+  min-width: 300px;
+}
+.bitchCols{
+  min-width: 10px;
+}
 .btn {
   letter-spacing: 0.1em;
   cursor: pointer;
   font-size: 14px;
   font-weight: 400;
   line-height: 45px;
-  max-width: 3vw;
+  width: 60px;
+  height: 60px;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
   width: 100%;
+  height: 100%;
   border-radius: 0;
-  height: 3vw;
+background-repeat: no-repeat;
 }
 .btn:hover {
   text-decoration: none;
@@ -357,33 +100,37 @@ HOVER ON TEXT/BUTTONS
 }
 #Twitter{
 background-image: url('../img/twitter-logo-b.png');
-  background-size: 7.25vw;
+height: 62px;
+width: 62px;
 }
 #Twitter:hover{
   background-image: url('../img/twitter-logo.png');
-  background-size: 7.25vw;
+height: 62px;
+width: 62px;
 }
 #Insta{
 background-image: url('../img/instagram-logo-b.png');
-  background-size: 7.25vw;
+height: 62px;
+width: 62px;
 }
 #Insta:hover{
 background-image: url('../img/instagram-logo.png');
-  background-size: 7.25vw;
+height: 62px;
+width: 62px;
 }
 #Mail{
 background-image: url('../img/gmail-logo-b.png');
-  background-size: 7.25vw;
+height: 62px;
+width: 62px;
 }
 #Mail:hover{
 background-image: url('../img/gmail-logo.png');
-  background-size: 7.25vw;
+height: 62px;
+width: 62px;
 }
-
 .colSize{
   width: 11vw;
 }
-
 .effect04::before,
 .effect04 span{
     margin: 0 auto;
@@ -412,8 +159,7 @@ background-image: url('../img/gmail-logo.png');
   -webkit-transform: translateY(0) scale(1,1);
           transform: translateY(0) scale(1,1);
 }
-
-
 .socialClass{
   width: 3vw;
+  height: 3vh;
 }
