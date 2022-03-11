@@ -184,3 +184,14 @@ animation-iteration-count: infinite;
    transition-duration: 0.25s;
    transform: translateX(2vw);
  }
+
+/*  */
+
+@keyframes slideToLeft {
+  0% {
+    transform: translateY(-150vw);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

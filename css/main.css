@@ -109,6 +109,7 @@ background-image: url('../img/twitter-logo-b.png');
 height: 3.25vw;
 width: 3.25vw;
 background-size: 8vw 8vw;
+animation: slideToLeft 1s ease;
 }
 #Twitter:hover{
   background-image: url('../img/twitter-logo.png');
@@ -121,6 +122,7 @@ background-image: url('../img/instagram-logo-b.png');
 height: 3.25vw;
 width: 3.25vw;
 background-size: 8vw 8vw;
+animation: slideToLeft 1.25s ease;
 }
 #Insta:hover{
 background-image: url('../img/instagram-logo.png');
@@ -133,6 +135,7 @@ background-image: url('../img/gmail-logo-b.png');
 height: 3.25vw;
 width: 3.25vw;
 background-size: 8vw 8vw;
+animation: slideToLeft 1.5s ease;
 }
 #Mail:hover{
 background-image: url('../img/gmail-logo.png');
@@ -174,4 +177,15 @@ background-size: 8vw 8vw;
 .socialClass{
   width: 3vw;
   height: 3vh;
+}
+.borderRow{
+background-image: url('../img/robots.png')
+}
+.borderRowHeight{
+  height: 6vw;
+}
+
+.gapColOne{
+  height:10vw;
+  background-image: url('../img/robots.png')
 }
