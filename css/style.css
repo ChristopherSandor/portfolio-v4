@@ -67,3 +67,19 @@ font-family: 'Megrim', cursive;
   font-size: 5vw;
   color: black;
 }
+.borderRowBot{
+  	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 10s ease infinite;
+    height: 1vh;
+    background-size: 400% 400%;
+}
+.headerAbout{
+font-size: 5vw;
+color: white;
+
+}
+.textAbout{
+  font-size: 1.5vw;
+  color: white;
+
+}
