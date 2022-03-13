@@ -179,18 +179,18 @@ background-size: 8vw 8vw;
   height: 3vh;
 }
 .borderRow{
-background-image: url('../img/robots.png')
+background-image: url('../img/dark.png')
 }
 .borderRowHeight{
-  height: 6vw;
+  height: 6vh;
 }
 
 .gapColOne{
   height:10vw;
-  background-image: url('../img/robots.png')
+  background-image: url('../img/dark.png')
 }
 
 .gapColTwo{
   height:25vw;
-  background-image: url('../img/robots.png')
+  background-image: url('../img/dark.png')
 }

@@ -19,7 +19,7 @@ animation-iteration-count: infinite;
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 .leftColNav{
-  animation: slideToTheRight 2.5s ease;
+  animation: slideToTheRight 1s ease;
 }
 .sideBar:hover{
   animation: shake 0.5s;
