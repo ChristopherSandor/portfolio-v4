@@ -72,9 +72,9 @@ font-family: 'Megrim', cursive;
   color: black;
 }
 .borderRowBot{
-  	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    animation: gradient 10s ease infinite;
-    height: 0.5vh;
+   /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 10s ease infinite; */
+     height: 0.25vh;
     background-size: 400% 400%;
 }
 .headerAbout{
@@ -86,5 +86,10 @@ font-family: 'Megrim', cursive;
 .textAbout{
   font-size: 1.5vw;
   color: white;
+  font-family: 'Roboto Serif', serif;
+}
+.textAboutOther{
+  font-size: 2vw;
+  color: black;
   font-family: 'Roboto Serif', serif;
 }

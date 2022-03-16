@@ -184,13 +184,34 @@ background-image: url('../img/dark.png')
 .borderRowHeight{
   height: 6vh;
 }
-
+.newbackground{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  animation: gradient 10s ease infinite;
+  background-size: 400% 400%;
+}
+.backgroundIMG{
+  background: url('../img/dark.png');
+    animation: backgroundScroll 40s linear infinite;
+    margin: none;
+    padding: none;
+    background-size: 25%;
+}
 .gapColOne{
   height:10vw;
-  background-image: url('../img/dark.png')
+  padding: none;
 }
+
 
 .gapColTwo{
   height:25vw;
-  background-image: url('../img/dark.png')
+    padding: none;
+}
+.oneHeight{
+  height: 1.5vh;
+}
+.backgroundIMG2{
+  background: url('../img/vichy.png');
+    animation: backgroundScroll2 40s linear infinite;
+    margin: none;
+    padding: none;
 }
