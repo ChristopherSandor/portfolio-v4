@@ -70,36 +70,34 @@ font-family: 'Cantata One', serif;
   font-family: 'Abril Fatface', cursive;
   font-size: 5vw;
   color: black;
-}
-.borderRowBot{
-     height: 4vh;
-    background-size: 400% 400%;
-}
-.headerAbout{
-font-size: 6vw;
-color: #fff;
-font-family: 'Megrim', cursive;
+  display: inline-block;
 
 }
-.textAbout{
-  font-size: 1.8vw;
+.frontName{
+  float: right;
+  align: right;
+}
+.largeInCharge{
+  font-size: 15vw;
+  color: #f41d0c;
+  font-family: 'Abril Fatface', cursive;
+    display: block;
+
+}
+
+.text-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f41d0c;
   color: white;
-  font-family: 'Roboto Serif', serif;
 }
-.textAboutOther{
-  font-size: 2vw;
-  color: black;
-  font-family: 'Roboto Serif', serif;
-}
-.neonText {
-  color: #fff;
-  text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #000,
-      0 0 82px #000,
-      0 0 92px #000,
-      0 0 102px #000,
-      0 0 151px #000;
+
+
+.largeInCharge:nth-child(2) {
+  position: absolute;
+  background-color: #f41d0c;
+  color: white;
+border: 1px;
 }
