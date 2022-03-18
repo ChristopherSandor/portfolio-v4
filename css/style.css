@@ -78,7 +78,7 @@ font-family: 'Cantata One', serif;
   align: right;
 }
 .largeInCharge{
-  font-size: 15vw;
+  font-size: 12vw;
   color: #f41d0c;
   font-family: 'Abril Fatface', cursive;
     display: block;
@@ -100,4 +100,15 @@ font-family: 'Cantata One', serif;
   background-color: #f41d0c;
   color: white;
 border: 1px;
+}
+
+.aboutText{
+  height: 30vw;
+}
+.aboutText2{
+  background-color: #ebebeb;
+}
+.aboutMeText{
+  font-size: 2vw;
+  font-family: 'Cantata One';
 }

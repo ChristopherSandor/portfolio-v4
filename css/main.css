@@ -18,7 +18,7 @@ padding-right: 0;
   height: 3vh;
 }
 .height{
-  height: 8vw;
+  height: 16vh;
   width: 100vw;
 }
 .navFloat{
@@ -182,4 +182,13 @@ background-size: 8vw 8vw;
 }
 .divider{
   height: 10vw;
+}
+.divider2{
+  height: 4vw;
+}
+.divider3{
+    height: 4vw;
+}
+.colorDope{
+background-color: #ebebeb;
 }
