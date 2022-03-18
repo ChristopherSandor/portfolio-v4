@@ -84,6 +84,13 @@ font-family: 'Cantata One', serif;
     display: block;
 
 }
+.largeInCharge2{
+  font-size: 8vw;
+  color: #ff5e00;
+  font-family: 'Abril Fatface', cursive;
+    display: block;
+
+}
 .interestText{
   font-size: 9vw;
   color: black;
@@ -100,10 +107,23 @@ font-family: 'Cantata One', serif;
   background-color: #f41d0c;
   color: black;
 }
-
+.text-box2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffbb00;
+  color: black;
+}
 .largeInCharge:nth-child(2) {
   position: absolute;
   background-color: #f41d0c;
+  color: black;
+border: 1px;
+}
+.largeInCharge2:nth-child(2) {
+  position: absolute;
+  background-color: #ffbb00;
   color: black;
 border: 1px;
 }
@@ -120,4 +140,14 @@ border: 1px;
 .aboutMeText{
   font-size: 2vw;
 font-family: 'Montserrat', sans-serif;
+}
+.qualHeight{
+  height: 4vw;
+}
+.checkMarkSide{
+  width: 12vw;
+}
+.checkMarkText{
+  font-family: 'Montserrat', sans-serif;
+font-size: 3vw;
 }
