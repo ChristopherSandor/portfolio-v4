@@ -32,13 +32,13 @@ a:active {
 }
 body{
    overflow-x: hidden;
-   background-image: url('../img/back.png');
 }
 .logoName{
   font-family: 'Libre Barcode 39 Text', cursive;
   font-size: 2.5vw;
-  float: right;
+  align-items: center;
 }
+
 div {
   background-color: none;
   background-image: none;
@@ -63,7 +63,7 @@ svg{
   height: 12.25vh;
 }
 .sideBar{
-font-family: 'Megrim', cursive;
+font-family: 'Cantata One', serif;
   font-size: 4vw;
 }
 .boldText{
@@ -72,19 +72,17 @@ font-family: 'Megrim', cursive;
   color: black;
 }
 .borderRowBot{
-   /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    animation: gradient 10s ease infinite; */
-     height: 0.25vh;
+     height: 4vh;
     background-size: 400% 400%;
 }
 .headerAbout{
 font-size: 6vw;
-color: white;
+color: #fff;
 font-family: 'Megrim', cursive;
 
 }
 .textAbout{
-  font-size: 1.5vw;
+  font-size: 1.8vw;
   color: white;
   font-family: 'Roboto Serif', serif;
 }
@@ -92,4 +90,16 @@ font-family: 'Megrim', cursive;
   font-size: 2vw;
   color: black;
   font-family: 'Roboto Serif', serif;
+}
+.neonText {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #000,
+      0 0 82px #000,
+      0 0 92px #000,
+      0 0 102px #000,
+      0 0 151px #000;
 }
