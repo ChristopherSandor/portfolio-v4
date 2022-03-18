@@ -187,7 +187,10 @@ background-size: 8vw 8vw;
   height: 4vw;
 }
 .divider3{
-    height: 4vw;
+    height: 3vw;
+}
+.divider4{
+    height: 8vw;
 }
 .colorDope{
 background-color: #ebebeb;

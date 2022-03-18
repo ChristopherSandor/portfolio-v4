@@ -84,31 +84,40 @@ font-family: 'Cantata One', serif;
     display: block;
 
 }
-
+.interestText{
+  font-size: 9vw;
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+}
+.interestTextBox{
+  Background-color: #ff5e00;
+}
 .text-box {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #f41d0c;
-  color: white;
+  color: black;
 }
-
 
 .largeInCharge:nth-child(2) {
   position: absolute;
   background-color: #f41d0c;
-  color: white;
+  color: black;
 border: 1px;
+}
+.interestRowHeight{
+  height: 20vw;
 }
 
 .aboutText{
-  height: 30vw;
+  height: 38vw;
 }
 .aboutText2{
   background-color: #ebebeb;
 }
 .aboutMeText{
   font-size: 2vw;
-  font-family: 'Cantata One';
+font-family: 'Montserrat', sans-serif;
 }
