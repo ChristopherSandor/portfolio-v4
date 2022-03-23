@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded',function(event){
 // num5
 
 document.addEventListener('DOMContentLoaded',function(event){
-  var dataText = [ "Work"];
+  var dataText = [ "Projects"];
   function typeWriter(text, i, fnCallback) {
     if (i < (text.length)) {
      document.querySelector("#num5").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';

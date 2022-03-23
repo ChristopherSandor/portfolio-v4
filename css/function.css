@@ -167,7 +167,7 @@ animation-iteration-count: infinite;
  #num4:hover{
    transition-duration: 0.25s;
    transform: translateX(2vw);
-   color: #52b005;
+    color: #0426d1;
  }
  #num5{
    transition-duration: 0.25s;
@@ -175,7 +175,7 @@ animation-iteration-count: infinite;
  #num5:hover{
    transition-duration: 0.25s;
    transform: translateX(2vw);
-   color: #0426d1;
+   color: #52b005;
  }
  #num6{
    transition-duration: 0.25s;

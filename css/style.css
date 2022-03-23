@@ -75,10 +75,10 @@ font-family: 'Cantata One', serif;
 }
 .frontName{
   float: right;
-  align: right;
+  text-align: right;
 }
 .largeInCharge{
-  font-size: 12vw;
+  font-size: 8vw;
   color: #f41d0c;
   font-family: 'Abril Fatface', cursive;
     display: block;
@@ -87,6 +87,13 @@ font-family: 'Cantata One', serif;
 .largeInCharge2{
   font-size: 8vw;
   color: #ff5e00;
+  font-family: 'Abril Fatface', cursive;
+    display: block;
+
+}
+.largeInCharge3{
+  font-size: 8vw;
+  color: #52b005;
   font-family: 'Abril Fatface', cursive;
     display: block;
 
@@ -115,6 +122,14 @@ font-family: 'Cantata One', serif;
   background-color: #ffbb00;
   color: black;
 }
+.text-box3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #52b005;
+  color: black;
+}
 .largeInCharge:nth-child(2) {
   position: absolute;
   background-color: #f41d0c;
@@ -127,12 +142,21 @@ border: 1px;
   color: black;
 border: 1px;
 }
+.largeInCharge3:nth-child(2) {
+  position: absolute;
+  background-color: #52b005;
+  color: black;
+border: 1px;
+}
 .interestRowHeight{
   height: 20vw;
 }
 
 .aboutText{
-  height: 38vw;
+  height: 35vw;
+}
+.aboutText25{
+  height: 27vw;
 }
 .aboutText2{
   background-color: #ebebeb;
