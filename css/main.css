@@ -18,7 +18,7 @@ padding-right: 0;
   height: 3vh;
 }
 .height{
-  height: 8vw;
+  height: 16vh;
   width: 100vw;
 }
 .navFloat{
@@ -76,168 +76,52 @@ padding-right: 1vw;
 .largerCol{
   width: 25vw;
 }
-.btn {
-  letter-spacing: 0.1em;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 45px;
-  width: 60px;
-  height: 60px;
-  position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
-  width: 100%;
-  height: 100%;
-  border-radius: 0;
-background-repeat: no-repeat;
+
+.divider{
+  height: 10vw;
 }
-.btn:hover {
-  text-decoration: none;
+.divider2{
+  height: 4vw;
 }
-.effect04 {
-  --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
-  color: #000;
-  outline: solid  2px #000;
-  position: relative;
-  transition-duration: 0.4s;
-  overflow: hidden;
+.divider3{
+    height: 3vw;
+}
+.divider4{
+    height: 8vw;
+}
+.colorDope{
+background-color: #ebebeb;
+}
+.centerIMGSPEC {
   display: block;
- margin-left: auto;
- margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 78%;
+  border: 10px solid #d9d9d9;
+    transition: transform 0.2s;
+
 }
-#Twitter{
-background-image: url('../img/twitter-logo-b.png');
-height: 3.25vw;
-width: 3.25vw;
-background-size: 8vw 8vw;
-animation: slideToLeft 1s ease;
+
+.centerIMGSPEC:hover{
+   transform: scale(1.15);
+    border: 11px solid #d9d9d9;
 }
-#Twitter:hover{
-  background-image: url('../img/twitter-logo.png');
-  height: 3.25vw;
-  width: 3.25vw;
-  background-size: 8vw 8vw;
+
+.bottomRow{
+  height: 5vw;
+
 }
-#Insta{
-background-image: url('../img/instagram-logo-b.png');
-height: 3.25vw;
-width: 3.25vw;
-background-size: 8vw 8vw;
-animation: slideToLeft 1.25s ease;
-}
-#Insta:hover{
-background-image: url('../img/instagram-logo.png');
-height: 3.25vw;
-width: 3.25vw;
-background-size: 8vw 8vw;
-}
-#Mail{
-background-image: url('../img/gmail-logo-b.png');
-height: 3.25vw;
-width: 3.25vw;
-background-size: 8vw 8vw;
-animation: slideToLeft 1.5s ease;
-}
-#Mail:hover{
-background-image: url('../img/gmail-logo.png');
-height: 3.25vw;
-width: 3.25vw;
-background-size: 8vw 8vw;
-}
-.colSize{
-  width: 11vw;
-}
-.effect04::before,
-.effect04 span{
-    margin: 0 auto;
-	transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-	transition-duration: 0.4s;
-}
-.effect04:hover{
-  background-color: #000;
-}
-.effect04:hover span{
-  -webkit-transform: translateY(-400%) scale(-0.1,20);
-          transform: translateY(-400%) scale(-0.1,20);
-}
-.effect04::before{
-  content: attr(data-sm-link-text);
-	color: #FFF;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  -webkit-transform: translateY(500%) scale(-0.1,20);
-          transform: translateY(500%) scale(-0.1,20);
-}
-.effect04:hover::before{
-  letter-spacing: 0.05em;
-  -webkit-transform: translateY(0) scale(1,1);
-          transform: translateY(0) scale(1,1);
-}
-.socialClass{
+
+.soc{
+  transition: transform 0.2s;
   width: 3vw;
-  height: 3vh;
+  height: 3vw;
 }
-.borderRow{
-background-image: url('../img/dark.png')
+#maillogo{
+  width: 4vw;
+  height: 4vw;
 }
 
-.newbackground{
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  animation: gradient 10s ease infinite;
-  background-size: 400% 400%;
-}
-.backgroundIMG{
-  background: url('../img/dark.png');
-    animation: backgroundScroll 25s linear infinite;
-    margin: none;
-    padding: none;
-    background-size: 35%;
-     border-radius: 3vw;
-}
-.gapColOne{
-  height: 9vw;
-  padding: none;
-}
-.gapColTwo{
-  height: 36vw;
-  padding: none;
-}
-.topNewHalf{
-  height: 27vw;
-}
-.botNewHalf{
-  height: 20vw;
-}
-.smTopNewHalf{
-  height: 18vw;
-}
-.smBotNewHalf{
-  height: 3vw;
-  background-image: url('../img/vichy.png');
-  -webkit-mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 57px, black 0px);
-   transform:translateX(12px);
-}
-.backgroundIMG2{
-  background-color: #ffe18c;
-  border-radius: 3vw 3vw 0 0;
-}
-.backgroundIMG3{
-  background-color: #ffe18c;
-  border-radius: 3vw 0vw 3vw 3vw;
-  height: 30vw;
-}
-.backgroundIMG4{
-  background-color: #ffe18c;
-  border-radius: 3vw 3vw 0vw 0vw;
-    height: 21vw;
-
-}
-.imgBack{
-    background: url('../img/vichy.png');
-}
-.weirdHeight{
-  height: 3vw;
+.soc:hover {
+  transform: scale(1.25);
 }

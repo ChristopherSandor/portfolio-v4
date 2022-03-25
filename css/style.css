@@ -30,6 +30,7 @@ a:active {
   text-decoration: none;
 
 }
+
 body{
    overflow-x: hidden;
 }
@@ -64,42 +65,116 @@ svg{
 }
 .sideBar{
 font-family: 'Cantata One', serif;
-  font-size: 4vw;
+font-size: 4vw;
+color: black;
+underline: none;
 }
 .boldText{
   font-family: 'Abril Fatface', cursive;
   font-size: 5vw;
   color: black;
-}
-.borderRowBot{
-     height: 4vh;
-    background-size: 400% 400%;
-}
-.headerAbout{
-font-size: 6vw;
-color: #fff;
-font-family: 'Megrim', cursive;
+  display: inline-block;
 
 }
-.textAbout{
-  font-size: 1.8vw;
-  color: white;
-  font-family: 'Roboto Serif', serif;
+.frontName{
+  float: right;
+  text-align: right;
 }
-.textAboutOther{
-  font-size: 2vw;
+.largeInCharge{
+  font-size: 8vw;
+  color: #f41d0c;
+  font-family: 'Abril Fatface', cursive;
+    display: block;
+
+}
+.largeInCharge2{
+  font-size: 8vw;
+  color: #ff5e00;
+  font-family: 'Abril Fatface', cursive;
+    display: block;
+
+}
+.largeInCharge3{
+  font-size: 8vw;
+  color: #52b005;
+  font-family: 'Abril Fatface', cursive;
+    display: block;
+
+}
+.interestText{
+  font-size: 9vw;
   color: black;
-  font-family: 'Roboto Serif', serif;
+  font-family: 'Abril Fatface', cursive;
 }
-.neonText {
-  color: #fff;
-  text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #000,
-      0 0 82px #000,
-      0 0 92px #000,
-      0 0 102px #000,
-      0 0 151px #000;
+.interestTextBox{
+  Background-color: #ff5e00;
+}
+.text-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f41d0c;
+  color: black;
+}
+.text-box2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffbb00;
+  color: black;
+}
+.text-box3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #52b005;
+  color: black;
+}
+.largeInCharge:nth-child(2) {
+  position: absolute;
+  background-color: #f41d0c;
+  color: black;
+border: 1px;
+}
+.largeInCharge2:nth-child(2) {
+  position: absolute;
+  background-color: #ffbb00;
+  color: black;
+border: 1px;
+}
+.largeInCharge3:nth-child(2) {
+  position: absolute;
+  background-color: #52b005;
+  color: black;
+border: 1px;
+}
+.interestRowHeight{
+  height: 20vw;
+}
+
+.aboutText{
+  height: 35vw;
+}
+.aboutText25{
+  height: 27vw;
+}
+.aboutText2{
+  background-color: #ebebeb;
+}
+.aboutMeText{
+  font-size: 2vw;
+font-family: 'Montserrat', sans-serif;
+}
+.qualHeight{
+  height: 4vw;
+}
+.checkMarkSide{
+  width: 12vw;
+}
+.checkMarkText{
+  font-family: 'Montserrat', sans-serif;
+font-size: 3vw;
 }
